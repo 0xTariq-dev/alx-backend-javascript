@@ -13,6 +13,12 @@ npm install
 - [x] Executing basic javascript with Node JS
     + In the file 0-console.js, create a function named displayMessage that prints in STDOUT the string argument.
 
+- [x] Using Process stdin and stdout
+    + In the file 1-stdin.js, create a script that will be executed through command line by passing a string argument.
+    + It should display the message `Welcome to Holberton School, what is your name?`\
+    + The user should be able to input their name and press enter.
+    + The program should display `Your name is: <name>`.
+    + The program should display `This important software is now closing` before exiting.
 ---
 ## Resources :world_map:
 Read or watch:
