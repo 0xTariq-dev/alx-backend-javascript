@@ -48,17 +48,34 @@ npm install
     + In the file 4-http.js, create a small HTTP server using the HTTP module.
     + The server should listen on port 1245 and return `Hello Holberton School!` for any incoming requests.
     > To run the server :rocket:
-    ```bash
-    $> node 4-http.js
-    ```
+        ```bash
+        $> node 4-http.js
+        ```
     > To test the server :white_check_mark:
-    ```bash
-    $> curl localhost:1245 && echo ""
-    Hello Holberton School!
-    $> curl localhost:1245/any && echo ""
-    Hello Holberton School!
-    ```
+        ```bash
+        $> curl localhost:1245 && echo ""
+        Hello Holberton School!
+        $> curl localhost:1245/any && echo ""
+        Hello Holberton School!
+        ```
 
+- [x] Create a more complex HTTP server using Node's HTTP module
+    + In the file 5-http.js, create a small HTTP server using the HTTP module.
+    + The server should listen on port 1245 and return `Hello Holberton School!` for home route `/`.
+    + The server should return students statistics for route `/students`.
+    > To run the server :rocket:
+        ```bash
+        $> node 5-http.js database.csv
+        ```
+    > To test the server :white_check_mark:
+        ```bash
+        $> curl localhost:1245/students && echo ""
+        This is the list of our students
+        Number of students: NUMBER_OF_STUDENTS
+        Number of students in CS: NUMBER_OF_STUDENTS_IN_CS. List: LIST_OF_STUDENTS_IN_CS
+        Number of students in SWE: NUMBER_OF_STUDENTS_IN_SWE. List: LIST_OF_STUDENTS_IN_SWE
+        ...
+        ```
 ---
 ## Resources :world_map:
 Read or watch:
