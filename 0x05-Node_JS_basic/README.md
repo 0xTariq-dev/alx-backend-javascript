@@ -31,6 +31,34 @@ npm install
         Number of students in SWE: NUMBER_OF_STUDENTS_IN_SWE. List: LIST_OF_STUDENTS_IN_SWE
         ...
         ```
+
+- [x] Reading a file asynchronously with Node JS
+    + In the file 3-read_file_async.js, create a function that returns an overview of the database.
+    + The function must accept a file name as argument.
+    + If the file does not exist, it returns an error `Cannot load the database`.
+    + If the file exists, it returns an overview of the database in this form:
+        ```bash
+        Number of students: NUMBER_OF_STUDENTS
+        Number of students in CS: NUMBER_OF_STUDENTS_IN_CS. List: LIST_OF_STUDENTS_IN_CS
+        Number of students in SWE: NUMBER_OF_STUDENTS_IN_SWE. List: LIST_OF_STUDENTS_IN_SWE
+        ...
+        ```
+
+- [x] Create a small HTTP server using Node's HTTP module
+    + In the file 4-http.js, create a small HTTP server using the HTTP module.
+    + The server should listen on port 1245 and return `Hello Holberton School!` for any incoming requests.
+    > To run the server :rocket:
+    ```bash
+    $> node 4-http.js
+    ```
+    > To test the server :white_check_mark:
+    ```bash
+    $> curl localhost:1245 && echo ""
+    Hello Holberton School!
+    $> curl localhost:1245/any && echo ""
+    Hello Holberton School!
+    ```
+
 ---
 ## Resources :world_map:
 Read or watch:
