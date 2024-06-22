@@ -19,6 +19,18 @@ npm install
     + The user should be able to input their name and press enter.
     + The program should display `Your name is: <name>`.
     + The program should display `This important software is now closing` before exiting.
+
+- [x] Reading a file synchronously with Node JS
+    + In the file 2-read_file.js, create a function that returns an overview of the database.
+    + The function must accept a file name as argument.
+    + If the file does not exist, it returns an error `Cannot load the database`.
+    + If the file exists, it returns an overview of the database in this form:
+        ```bash
+        Number of students: NUMBER_OF_STUDENTS
+        Number of students in CS: NUMBER_OF_STUDENTS_IN_CS. List: LIST_OF_STUDENTS_IN_CS
+        Number of students in SWE: NUMBER_OF_STUDENTS_IN_SWE. List: LIST_OF_STUDENTS_IN_SWE
+        ...
+        ```
 ---
 ## Resources :world_map:
 Read or watch:
